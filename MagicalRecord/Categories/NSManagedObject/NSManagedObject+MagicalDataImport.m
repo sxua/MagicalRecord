@@ -133,7 +133,6 @@ NSString * const kMagicalRecordImportAttributeUseDefaultValueWhenNotPresent = @"
         MRLog(@"relatedObject.entity %@", [relatedObject entity]);
         MRLog(@"relationshipInfo.destinationEntity %@", [relationshipInfo destinationEntity]);
         MRLog(@"Add Relationship Selector: %@", addRelatedObjectToSetMessage);
-        MRLog(@"perform selector error: %@", exception);
     }
 }
 
